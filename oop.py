@@ -2,6 +2,8 @@ from abc import ABC, abstractmethod
 from collections import Counter
 from itertools import accumulate, pairwise, tee
 
+from collections import defaultdict
+
 s = Counter([1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5])
 print(s)
 
