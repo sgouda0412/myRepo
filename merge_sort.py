@@ -6,6 +6,7 @@
 
 for x in range(30):
     print(x, end=" ")
+    print("Everything is good...")
 
 
 def merge(arr, l, m, r):
